@@ -1,0 +1,36 @@
+{
+  "name": "neural-storm",
+  "version": "1.0.0",
+  "description": "A fast-paced browser-based brain training game",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx serve .",
+    "build": "echo 'No build step required - static files ready for deployment'",
+    "deploy:netlify": "netlify deploy --prod --dir=.",
+    "deploy:vercel": "vercel --prod",
+    "preview": "npx serve . -p 3000"
+  },
+  "keywords": [
+    "game",
+    "brain-training",
+    "puzzle",
+    "javascript",
+    "html5",
+    "css3",
+    "web-audio"
+  ],
+  "author": "Neural Storm Team",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/neural-storm.git"
+  },
+  "homepage": "https://username.github.io/neural-storm",
+  "bugs": {
+    "url": "https://github.com/username/neural-storm/issues"
+  }
+}
